@@ -22,9 +22,7 @@ class MainActivity : AppCompatActivity() {
         diceImage2 = findViewById(R.id.dice_image2)
     }
 
-
     private fun rollDice(){
-
         diceImage.setImageResource(getRandomDiceImage())
         diceImage2.setImageResource(getRandomDiceImage())
     }
@@ -41,5 +39,4 @@ class MainActivity : AppCompatActivity() {
             else -> R.drawable.dice_6
         }
     }
-
 }
